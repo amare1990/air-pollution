@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing if SearchBar component renders correctly 1`] = `
+<div
+  className="search-bar-wrapper"
+>
+  <input
+    className="search-input"
+    id=""
+    onChange={[Function]}
+    placeholder="search City"
+    type="search"
+    value=""
+  />
+  <button
+    className="btn search-btn"
+    onClick={[Function]}
+    type="button"
+  >
+    Search
+  </button>
+</div>
+`;

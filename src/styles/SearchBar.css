@@ -1,0 +1,23 @@
+.search-bar-wrapper {
+  margin-top: 20px;
+  background-color: #ddd;
+  padding: 20px 20px 20px 10px;
+}
+
+.search-input,
+.search-btn {
+  height: 30px;
+  border: 1px solid #0f0f0f;
+  border-radius: 7px;
+  padding: 2px 3px;
+  margin-right: 3px;
+}
+
+.search-btn {
+  width: 70px;
+  background-color: aqua;
+}
+
+.search-btn:hover {
+  background-color: steelblue;
+}
