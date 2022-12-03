@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: #555;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.logo-img {
+  width: 100px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.link {
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .App {
+    width: auto;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+  }
+}
