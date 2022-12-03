@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing if App component renders correctly 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="header"
+  >
+    <a
+      className=""
+      href="/https://www.openweathermap.org"
+      onClick={[Function]}
+    >
+      <img
+        alt="logo"
+        className="logo-img"
+        src="logo_weather.png"
+      />
+    </a>
+    <div
+      className="search-bar-wrapper"
+    >
+      <input
+        className="search-input"
+        id=""
+        onChange={[Function]}
+        placeholder="search City"
+        type="search"
+        value=""
+      />
+      <button
+        className="btn search-btn"
+        onClick={[Function]}
+        type="button"
+      >
+        Search
+      </button>
+    </div>
+  </header>
+</div>
+`;
