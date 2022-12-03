@@ -1,3 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Testing if Homepage component renders correctly 1`] = `null`;
+
 exports[`Testing if SearchBar component renders correctly 1`] = `null`;

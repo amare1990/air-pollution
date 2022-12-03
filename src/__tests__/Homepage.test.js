@@ -4,13 +4,13 @@ import renderer from 'react-test-renderer';
 import Homepage from '../components/Homepage';
 import store from '../redux/store';
 
-test('Testing if SearchBar component renders correctly', () => {
-  const homepageBarSnapshot = renderer.create(
+test('Testing if Homepage component renders correctly', () => {
+  const homepageSnapshot = renderer.create(
     <Provider store={store}>
       <BrowserRouter>
         <Homepage />
       </BrowserRouter>
     </Provider>,
   ).toJSON();
-  expect(homepageBarSnapshot).toMatchSnapshot();
+  expect(homepageSnapshot).toMatchSnapshot();
 });
