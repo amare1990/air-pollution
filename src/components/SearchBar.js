@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { fetchData } from '../redux/current/current';
+import { fetchData } from '../redux/current';
 import cityToGeoData from '../redux/geocodedata';
 import '../styles/SearchBar.css';
 import apiID from '../http-commons';
-import { fetchGeoCode } from '../redux/city/city';
+import { fetchGeoCode } from '../redux/city';
 
 function SearchBar() {
   const [city, setCity] = useState('');

@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import apiID from '../../http-commons';
+import apiID from '../http-commons';
 
 export const fetchGeoCode = createAsyncThunk(
   'city/fetchGeoCode',
